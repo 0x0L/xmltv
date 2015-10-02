@@ -1,0 +1,6 @@
+#!/bin/sh
+cd /tmp
+curl http://xmltv.dtdns.net/download/tnt.zip > tnt.zip
+unzip -o tnt.zip
+rm tnt.zip
+open -a EyeTV tnt.xml
